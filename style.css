@@ -1,0 +1,33 @@
+#submit_button{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+#sort_button{
+    display:none;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+input{
+    margin:20px;
+}
+
+body{
+    background-color:dimgrey;
+    color:white;
+}
+
+#friend_list{
+    border:1px solid black;
+        padding:15px;
+    background-color:dodgerblue;
+    border-radius:20px;width:50%;
+}
+
+#friend_list2{
+     border:1px dotted black;
+        padding:15px;
+    background-color:lightcoral;
+    border-radius:20px;width:50%;
+}
