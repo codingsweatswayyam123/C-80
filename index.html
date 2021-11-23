@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Sort System
+    </title>  
+    <link rel="stylesheet" href="style.css">
+      <script src="main.js"></script>                           
+    </head>
+    <body>
+    <center>
+        <h3 style="margin-top:20px; margin-bottom:20px;color:lightskyblue">List of Friends from school</h3>
+        <div>
+        <span>1</span>
+            <input type="text" placeholder="enter friend name here" id="friend_1">
+            <br>
+            <br>
+            <span>2</span>
+            <input type="text" placeholder="enter friend name here" id="friend_2">
+            <br>
+            <br>
+            <span>3</span>
+            <input type="text" placeholder="enter friend name here" id="friend_3">
+            <br>
+            <br>
+            <span>4</span>
+            <input type="text" placeholder="enter friend name here" id="friend_4">
+            <br>
+            <br>
+        </div>
+        <button onclick="submit()" id="submit_button">Submit</button>
+        <br>
+        <br>
+        <div id="friend_list" style="font-weight:bold;color:cyan"></div>
+        <br>
+        <br>
+        <hr>
+        <div id="friend_list2"></div>
+        <button onclick="sorting()" id="sort_button">Sort And Rearange</button>
+        <br>
+        <br>
+        <button onclick="update()">New update button</button>
+        </center>
+    </body>
+</html>
